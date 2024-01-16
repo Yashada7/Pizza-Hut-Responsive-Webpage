@@ -1,0 +1,221 @@
+/* @media (max-width:1500px){ */
+            
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: beige;
+    }
+    .menu{
+        background-color: burlywood;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: xx-large;
+        font-style: oblique;
+    }
+    h1, p{
+        text-align: center;
+    }
+    .menu1{
+        display: flex;
+        align-items: right;
+        width: 400px;
+        margin-left: 180px;
+        justify-content: space-around;
+    }
+    .menu2{
+        display: flex;
+        align-items: center;
+        width: 250px;
+        margin-right: 20px;
+        justify-content: space-around;
+    }
+    .block, .combo{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-size: cover;
+        height: 600px;
+        background-repeat: no-repeat;
+        opacity: 0.3px;   
+        border: 3px solid gray;
+    }
+    .right, .combo_left{
+        /* margin-left: 50%; */
+        display: block;
+        align-content: center;
+        padding: 25px;
+        background-color: rgba(255, 0, 0, 0.79);
+        width: 30%;
+        border: 6px dashed rgba(255, 255, 255, 0.445);
+        align-content: left;
+        justify-content: center;
+    }
+    body > div.block > div.right > div:nth-child(1) > h1{
+        font-size: 70px;
+        margin-bottom: 0px;
+    }
+    body > div.block > div.right > div:nth-child(2) > p{
+        font-size: 30px;
+        margin-top: 0px;
+    }
+    body > div.combo > div.combo_left > div:nth-child(1) > h1{
+        font-size: 70px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    body > div.combo > div.combo_left > div:nth-child(2) > p{
+        margin-top: 0px;
+        padding: 0px;
+        font-size: 30px;
+    }
+    .left, .combo_right{
+        display: flex;
+        width: 70%;
+    }
+    .promo{
+        display: flex;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        background-color: black;
+        color: aliceblue;
+        width: 80%;
+        margin-left: 12%;
+        font-size: x-large;
+        margin-top: 30px;
+    }
+    body > div.block > div.right > div.promo > div > p{
+        font-size: 40px;
+        margin-right: 15px;
+        padding: 5px;
+    }
+    body > div.combo > div.combo_left > div:nth-child(3) > div > p{
+        font-size: 40px;
+        margin-right: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    body > div.combo > div.combo_left > div:nth-child(4) > div > p{
+        font-size: 40px;
+        margin-right: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    body > div.combo > div.combo_left > div:nth-child(4) > h2{
+        margin-left: 15px;
+    }
+    .free{
+        display: flex;
+        background-color: wheat;
+        border-radius: 50px;
+        width: 30%;
+        margin-top: 20px;
+        margin-left: 35%;
+        align-content: center;
+        justify-content: center;
+    }
+    .Terms{
+        padding-top: 70px;
+        text-align: right;
+    }
+    body > div.combo > div.combo_left > div.Terms{
+        padding: 0px;
+    }
+
+    .best{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+        background-color: beige;
+        font-size: xx-large;
+    }
+    .box{
+        border: 2px solid black;
+        box-shadow:  10px 5px gray;
+        padding: 10px ;
+        margin: 20px;
+        width: 100%; 
+        text-align: center;
+    }
+    .footer{
+    display: flex;
+    margin-top: 20px;
+    background-color: burlywood;
+}
+    
+/* } */
+@media (min-width: 481px) and (max-width:1250px){
+    .block, .combo{
+        height: 100%;
+    }
+    .menu{
+        font-size: x-large;
+    }
+    .menu1{
+        width: 300px;
+        margin-left: 100px;
+    }
+    .menu2{
+        width: 180px;
+    }
+    .promo{
+        width: 100%;
+        height: 60px;
+        font-size:small ;
+        margin-left: 0px;
+    }
+    .right, .combo_left{
+        padding: 0px;
+    }
+    .Terms{
+        margin-top: 10px;
+        text-align: center;
+    }
+    body > div.block > div.right > div:nth-child(1) > h1{
+        font-size: 40px;
+    }
+    body > div.block > div.right > div:nth-child(2) > p{
+        font-size: 17px;
+    }
+    body > div.block > div.right > div.promo > div > p{
+        font-size: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0px;
+    }
+    body > div.combo > div.combo_left > div:nth-child(1) > h1{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    body > div.combo > div.combo_left > div:nth-child(2) > p{
+        font-size: 17px;
+    }
+    body > div.combo > div.combo_left > div:nth-child(3) > div > p{
+        font-size: 25px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    body > div.combo > div.combo_left > div:nth-child(4) > div > p{
+        font-size: 25px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .Terms{
+        padding: 0px;
+    }
+    .footer{
+    display: flex;
+    margin-top: 20px;
+    background-color: burlywood;
+}
+    body > div.footer > div:nth-child(2) > div:nth-child(2) > img:nth-child(1){
+        height: 20px;
+    }
+    body > div.footer > div:nth-child(2) > div:nth-child(2) > img:nth-child(2){
+        height: 20px;
+    }
+}
